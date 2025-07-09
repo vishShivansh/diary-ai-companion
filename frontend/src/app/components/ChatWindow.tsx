@@ -33,7 +33,7 @@ export default function ChatWindow() {
   }, [messages]);
 
   return (
-    <div className="max-w-3xl mx-auto h-screen flex flex-col bg-gray-50">
+    <div className="max-w-4xl mx-auto h-screen flex flex-col bg-gray-50">
       <div className="flex-1 overflow-y-auto px-4 py-6 bg-white shadow-md rounded-md border">
         {messages.map((msg, idx) => (
           <div
